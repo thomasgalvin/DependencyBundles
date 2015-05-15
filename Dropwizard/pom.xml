@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.galvin.deps</groupId>
+        <artifactId>DependencyBundles</artifactId>
+        <version>1.0</version>
+    </parent>
+    
+    <artifactId>Dropwizard</artifactId>
+    <packaging>pom</packaging>
+    
+    <description>This module declares the common dependencies for Dropwizard, a
+        drop-in HTTP server written in Java.
+        
+        To include this as a dependency in another project, use the following:
+        
+        <!--
+        <dependencies>
+            ...
+            <dependency>
+                <groupId>com.galvin.deps</groupId>
+                <artifactId>Dropwizard</artifactId>
+                <version>1.0</version>
+                <type>pom</type>
+            </dependency>
+            ...
+        </dependencies>
+        -->
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+            <version>0.8.1</version>
+            
+            <exclusions>
+                <exclusion>
+                    <groupId>h.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions> 
+        </dependency>
+        
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-assets</artifactId>
+            <version>0.8.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-auth</artifactId>
+            <version>0.8.1</version>
+        </dependency>
+    </dependencies>
+</project>

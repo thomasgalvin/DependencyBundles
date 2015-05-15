@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.galvin.deps</groupId>
+    <artifactId>DependencyBundles</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    
+    <description>The modules of this project will define common Maven
+    dependencies. For more information on this pattern, visit:
+    
+    http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html
+    </description>
+  
+    <modules>
+        <!-- Apache -->
+        <module>ApacheCommons</module>
+        <module>Threadpool</module>
+        
+        <!-- SLF4J -->
+        <module>Logging</module>
+        <module>LoggingSimple</module>
+        
+        <!-- Web applications -->
+        <module>Dropwizard</module>
+        <module>Gson</module>
+        <module>Spring</module>
+        <module>Jetty</module>
+        
+        
+        <!-- misc -->
+        <module>JodaTime</module>
+        
+        <!-- Unit testing -->
+        <module>JUnit</module>
+    </modules>
+</project>
