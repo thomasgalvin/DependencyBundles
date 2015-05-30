@@ -22,6 +22,7 @@
         <!-- SLF4J -->
         <module>Logging</module>
         <module>LoggingSimple</module>
+        <module>Lombok</module>
         
         <!-- Web applications -->
         <module>Dropwizard</module>

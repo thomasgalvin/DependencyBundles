@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.galvin.deps</groupId>
+        <artifactId>DependencyBundles</artifactId>
+        <version>1.0</version>
+    </parent>
+    
+    <artifactId>Lombok</artifactId>
+    <packaging>pom</packaging>
+    
+    <description>
+        This project defines a common dependency for Lombok, a Java
+        annotation processor that eliminates the need for a lot of
+        boilerplate code.
+        
+        To include this as a dependency in another project, use the following:
+        (note that this is a provided dependency; that is correct. Lombok is
+        a compile-time dependency, not a runtime dependency.)
+        <!--
+        <dependencies>
+            ...
+            <dependency>
+                <groupId>com.galvin.deps</groupId>
+                <artifactId>Lombok</artifactId>
+                <version>1.0</version>
+                <type>pom</type>
+                <scope>provided</scope>
+            </dependency>
+            ...
+        </dependencies>
+        -->
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.4</version>
+        </dependency>
+    </dependencies>
+</project>
