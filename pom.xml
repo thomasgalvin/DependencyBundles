@@ -33,6 +33,7 @@
         
         <!-- misc -->
         <module>JodaTime</module>
+        <module>Mongo</module>
         
         <!-- Unit testing -->
         <module>JUnit</module>
