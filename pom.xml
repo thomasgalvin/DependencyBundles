@@ -33,8 +33,10 @@
         
         <!-- misc -->
         <module>AppleStubs</module>
+        <module>Groovy</module>
         <module>Jazzy</module>
         <module>JodaTime</module>
+        <module>jRuby</module>
         <module>Mongo</module>
         <module>RText</module>
         
