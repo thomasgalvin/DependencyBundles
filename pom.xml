@@ -32,6 +32,7 @@
         
         
         <!-- misc -->
+        <module>Jazzy</module>
         <module>JodaTime</module>
         <module>Mongo</module>
         
