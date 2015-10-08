@@ -33,6 +33,7 @@
         
         <!-- misc -->
         <module>AppleStubs</module>
+        <module>Freemarker</module>
         <module>Groovy</module>
         <module>Jazzy</module>
         <module>JodaTime</module>
