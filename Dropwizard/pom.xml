@@ -34,7 +34,7 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
-            <version>0.8.2</version>
+            <version>0.9.1</version>
             
             <exclusions>
                 <exclusion>
@@ -47,13 +47,13 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-assets</artifactId>
-            <version>0.8.2</version>
+            <version>0.9.1</version>
         </dependency>
         
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-auth</artifactId>
-            <version>0.8.2</version>
+            <version>0.9.1</version>
         </dependency>
     </dependencies>
 </project>
