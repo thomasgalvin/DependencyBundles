@@ -55,5 +55,11 @@
             <artifactId>dropwizard-auth</artifactId>
             <version>0.9.1</version>
         </dependency>
+        
+        <dependency>
+            <groupId>com.github.dirkraft.dropwizard</groupId>
+            <artifactId>dropwizard-file-assets</artifactId>
+            <version>galvin-0.0.1</version>
+        </dependency>
     </dependencies>
 </project>
