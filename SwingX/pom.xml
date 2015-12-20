@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.galvin.deps</groupId>
+        <artifactId>DependencyBundles</artifactId>
+        <version>1.0</version>
+    </parent>
+    
+    <artifactId>SwingX</artifactId>
+    <packaging>pom</packaging>
+    
+    <description>
+        This project defines a common dependency for SwingX.
+        
+        To include this as a dependency in another project, use the following:
+        <!--
+        <dependencies>
+            ...
+            <dependency>
+                <groupId>com.galvin.deps</groupId>
+                <artifactId>SwingX</artifactId>
+                <version>1.0</version>
+                <type>pom</type>
+            </dependency>
+            ...
+        </dependencies>
+        -->
+    </description>
+    
+    <dependencies>
+        <dependency>
+        	<groupId>com.github.insubstantial</groupId>
+        	<artifactId>substance-swingx</artifactId>
+        	<version>7.3</version>
+        </dependency>
+    </dependencies>
+</project>

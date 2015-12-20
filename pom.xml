@@ -38,6 +38,7 @@
         <module>JodaTime</module>
         <module>jRuby</module>
         <module>Mongo</module>
+        <module>SwingX</module>
         
         <!-- Unit testing -->
         <module>JUnit</module>
