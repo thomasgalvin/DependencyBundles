@@ -39,6 +39,7 @@
         <module>jRuby</module>
         <module>Mongo</module>
         <module>SwingX</module>
+        <module>Sqlite</module>
         
         <!-- Unit testing -->
         <module>JUnit</module>
