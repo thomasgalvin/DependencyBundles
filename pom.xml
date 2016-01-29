@@ -35,6 +35,7 @@
         <module>Freemarker</module>
         <module>Groovy</module>
         <module>Jazzy</module>
+        <module>JBCrypt</module>
         <module>JodaTime</module>
         <module>jRuby</module>
         <module>Mongo</module>
