@@ -42,6 +42,7 @@
         <module>Mongo</module>
         <module>SwingX</module>
         <module>Sqlite</module>
+        <module>YamlBeans</module>
         
         <!-- Unit testing -->
         <module>JUnit</module>
