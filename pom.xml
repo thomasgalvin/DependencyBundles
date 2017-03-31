@@ -40,6 +40,7 @@
         <module>JodaTime</module>
         <module>jRuby</module>
         <module>Mongo</module>
+        <module>PostgreSQL</module>
         <module>SwingX</module>
         <module>Sqlite</module>
         <module>YamlBeans</module>

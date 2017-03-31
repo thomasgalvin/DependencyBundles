@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.galvin.deps</groupId>
+        <artifactId>DependencyBundles</artifactId>
+        <version>1.0</version>
+    </parent>
+    
+    <artifactId>PostgreSQL</artifactId>
+    <packaging>pom</packaging>
+    
+    <description>
+        This project defines a common dependency for JUint, allowing us to 
+        specify the version in an single place.
+        
+        To include this as a dependency in another project, use the following:
+        <!--
+        <dependencies>
+            ...
+            <dependency>
+                <groupId>com.galvin.deps</groupId>
+                <artifactId>PostgreSQL</artifactId>
+                <version>1.0</version>
+                <type>pom</type>
+            </dependency>
+            ...
+        </dependencies>
+        -->
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1210</version>
+        </dependency>
+    </dependencies>
+</project>
